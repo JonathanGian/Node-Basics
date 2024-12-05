@@ -1,0 +1,14 @@
+body{ 
+    background-color: rgb(248, 192, 255);
+}
+.content{
+    min-width: 100%;
+
+    display: grid;
+    
+    
+}
+h1{
+    justify-self: center;
+    color: green;
+}
