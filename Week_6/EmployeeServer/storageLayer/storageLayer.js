@@ -15,6 +15,7 @@ async function getAllFromStorage(){
 
 async function getFromStorage(value, key = PRIMARY_KEY) {
    const dataArray = await readStorage(storageFilePath)
+   const valueLc= value
    return dataArray.filter(item => item[key]==value )// == in case you give the value as a string
 //    return (await readStorage(storageFilePath)).filter(person=>person[key]==value)// this also works but shorter
 }

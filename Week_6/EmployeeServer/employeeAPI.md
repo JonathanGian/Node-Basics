@@ -74,19 +74,19 @@
     - Top layer of the storage
     - <f>getAll()</f>
         - returns an array of all employees / []
-    - <f>get(value,key)</f>
+    - <f>get(<v>value,key</v>)</f>
         - Returns an array of matching employees
     - <f>insert(<v>newItem</v>)</f>
-        - Returns <v>INSERT_OK</v> / <v>NOT_INSERTERED</v>/ <v>ALREADY/IN_USE</v>
+        - Returns <v>INSERT_OK</v> / <v>NOT_INSERTERED</v>/ <v>ALREADY_IN_USE</v>
     - <f>remove(<v>value</v>)</f>
         - Returns <v>REMOVE_OK</v> / <v>NOT_REMOVED</v> / <v>NOT_FOUND</v>
-    - getter CODES
+    - <g>getter</g> <v>CODES</v>
         - Array of statuscodes
-    - getter TYPES
+    - <g>getter</g> <v>TYPES</v>
         - Returns an array of types of statuscodes
-    - getter KEYS
+    - <g>getter</g> <v>KEYS</v>
         - Returns an array of keys / []
-    - getter PRIMARY_KEY
+    - <g>getter</g> <v>PRIMARY_KEY</v>
         - Unique key for object
 
 - <m>statusCodes.js</m>
@@ -134,6 +134,9 @@ const MESSAGES={
 
 
 <style>
+    g{
+        color:magenta
+    }
     m{
         color:yellow;
     }
