@@ -1,0 +1,167 @@
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-size: 16px; 
+    background-color: #f9f9f9;
+    text-align: left; 
+    
+}
+
+thead th {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px; 
+    border: 1px solid #ddd;
+  }
+  
+
+  td, th {
+    padding: 10px;
+    border: 1px solid #ddd; 
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+/* General body styling */
+body {
+  background-color: #4CAF50;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Allows stacking navbar and container */
+}
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  color: white;
+  width: 99%;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position:relative; /* Keeps navbar at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar button styling */
+nav button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #45a049;
+}
+
+/* Search container styling */
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin: auto; 
+  margin-top: 100px;
+}
+
+/* Title (h1) styling */
+h1 {
+  color: whitesmoke;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Label and input field styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Result area styling */
+#resultarea {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.person{
+  padding: 1em;
+  border:solid #45a049 0.2em;
+} 
+div.info{
+  background-color: whitesmoke;
+  color: #45a049;
+  border: #45a049 solid 0.2em;
+}
+div.error{
+  background-color: whitesmoke;
+color: red;
+border: red solid 0.2em;
+
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input[type="text"], select, button {
+    font-size: 14px;
+  }
+}

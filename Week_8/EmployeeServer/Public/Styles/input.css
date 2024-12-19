@@ -1,0 +1,149 @@
+/* General body styling */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styling */
+  nav {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  nav button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Main content styling */
+  main {
+    margin-top: 80px; /* Space for fixed navbar */
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Limit form width */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align labels and inputs to the left */
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensures inputs take full width */
+    gap: 10px; /* Spacing between inputs */
+  }
+  
+  form label {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between; /* Align label and input */
+    width: 100%;
+  }
+  
+  form input {
+    width: 70%; /* Makes inputs smaller but readable */
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Form button styling */
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px; /* Space between buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result area styling */
+  #resultarea {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  #resultarea.info{
+    color: #45a049;
+    border: #45a049 solid 0.2em;
+  }
+#resultarea.error{
+  color: red;
+  border: red solid 0.2em;
+
+}
+ 
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    main {
+      width: 90%;
+    }
+  
+    form label {
+      font-size: 14px;
+    }
+  
+    form input {
+      width: 100%; /* Inputs take full width on smaller screens */
+      margin: 5px 0 0; /* Adjust spacing for smaller screens */
+    }
+  
+    form button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

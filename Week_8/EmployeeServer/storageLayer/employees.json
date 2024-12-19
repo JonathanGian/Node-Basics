@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "firstname": "Tim",
+        "lastname": "Jones",
+        "department": "Admin",
+        "salary": 7000
+    },
+    {
+        "id": 2,
+        "firstname": "Bob",
+        "lastname": "Smith",
+        "department": "ICT",
+        "salary": 5000
+    },
+    {
+        "id": 3,
+        "firstname": "Rebecca",
+        "lastname": "Green",
+        "department": "ICT",
+        "salary": 5500
+    },
+    {
+        "id": 4,
+        "firstname": "Ricky",
+        "lastname": "Falls",
+        "department": "Transportation",
+        "salary": 4200
+    },
+    {
+        "id": 5,
+        "firstname": "Jon",
+        "lastname": "Smith",
+        "department": "ICT",
+        "salary": 4000
+    },
+    {
+        "id": 123,
+        "firstname": "d",
+        "lastname": "d",
+        "department": "d",
+        "salary": null
+    },
+    {
+        "id": 444,
+        "firstname": "a",
+        "lastname": "b",
+        "department": "c",
+        "salary": 3000
+    },
+    {
+        "id": 42,
+        "firstname": "",
+        "lastname": "",
+        "department": "",
+        "salary": 0
+    },
+    {
+        "id": 7,
+        "firstname": "",
+        "lastname": "",
+        "department": "",
+        "salary": 0
+    },
+    {
+        "id": 55,
+        "firstname": "",
+        "lastname": "",
+        "department": "",
+        "salary": 0
+    },
+    {
+        "id": 4444,
+        "firstname": "",
+        "lastname": "",
+        "department": "",
+        "salary": 0
+    },
+    {
+        "id": 100,
+        "firstname": "Jon",
+        "lastname": "Jon",
+        "department": "ICT",
+        "salary": 10000
+    }
+]

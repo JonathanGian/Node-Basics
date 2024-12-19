@@ -1,0 +1,121 @@
+/* General body styling */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Modern and clean font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styling */
+  nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  nav button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Main container styling */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styling */
+  .container label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .container input[type="text"] {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons styling */
+  .container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result area styling */
+  #resultarea {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 50px;
+  }
+  #resultarea.info{
+    color: #45a049;
+    border: #45a049 solid 0.2em;
+  }
+#resultarea.error{
+  color: red;
+  border: red solid 0.2em;
+
+}
+ 
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    nav button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .container button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
